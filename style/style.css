@@ -20,6 +20,37 @@ header
     background-color: rgba(0, 0, 0, 0.45);
     margin: 24px;
     padding: 12px;
+    
+    overflow:auto;
+}
+
+header h1
+{
+    display: inline-block;
+}
+
+header nav
+{
+    float:right;
+}
+
+header nav a
+{
+    display: inline-block;
+    width: 74px; height: 74px;
+    background-image: url('social-media.png');
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0);
+}
+
+header nav a#fb
+{
+    background-position: 0px 0px;
+}
+
+header nav a#tw
+{
+    background-position: 0px -94px;
 }
 
 section#main
