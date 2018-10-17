@@ -1,0 +1,29 @@
+* { margin:0; padding: 0; }
+
+html
+{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+body
+{
+    font-family: 'Bitter', serif;
+    
+    color: white;
+}
+
+header
+{
+    background-color: rgba(0, 0, 0, 0.45);
+    margin: 24px;
+}
+
+section#main
+{
+    background-color: rgba(0, 0, 0, 0.45);
+    margin: 64px;
+    width: 55%
+}
